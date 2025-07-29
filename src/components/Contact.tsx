@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, ExternalLink } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, ExternalLink, Youtube } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -28,19 +28,19 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: 'Email',
-      value: 'ankitnarang.dev@gmail.com',
-      link: 'mailto:ankitnarang.dev@gmail.com'
+      value: 'ankitnarangwork@gmail.com',
+      link: 'mailto:ankitnarangwork@gmail.com'
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: 'Phone',
-      value: '+91 9068814029',
-      link: 'tel:+919068814029'
+      value: '+91 7668484155',
+      link: 'tel:+917668484155'
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: 'Location',
-      value: 'Mohali, India',
+      value: 'Meerut, India',
       link: null
     }
   ];
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
     {
       name: 'YouTube',
       url: 'https://www.youtube.com/@ShortNotes4u',
-      icon: <ExternalLink className="w-5 h-5" />,
+      icon: <Youtube className="w-5 h-5" />,
       color: 'hover:text-red-600'
     }
   ];

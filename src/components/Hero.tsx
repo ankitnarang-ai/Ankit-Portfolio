@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, Mail, Phone, ExternalLink } from 'lucide-react';
+import { Download, Mail, Phone } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const scrollToContact = () => {
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
               Hi, I'm{' '}
               <span className="text-primary-600">Ankit Narang</span>
             </motion.h1>
-            
+
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -46,8 +46,8 @@ const Hero: React.FC = () => {
               transition={{ delay: 0.4 }}
               className="text-lg text-gray-600 mb-8 max-w-2xl"
             >
-              Passionate about building scalable web applications and GenAI-powered solutions. 
-              Experienced in performance optimization and creating innovative digital experiences 
+              Passionate about building scalable web applications and GenAI-powered solutions.
+              Experienced in performance optimization and creating innovative digital experiences
               that drive business growth.
             </motion.p>
 
@@ -61,12 +61,12 @@ const Hero: React.FC = () => {
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-primary-600" />
                 <a href="mailto:ankitnarang.dev@gmail.com" className="hover:text-primary-600 transition-colors">
-                  ankitnarang.dev@gmail.com
+                  ankitnarangwork@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} className="text-primary-600" />
-                <span>+91 9068814029</span>
+                <span>+91 7668484155</span>
               </div>
             </motion.div>
 
@@ -86,28 +86,19 @@ const Hero: React.FC = () => {
                 <Mail size={18} />
                 Get In Touch
               </motion.button>
-              
+
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="#"
+                href="https://drive.google.com/uc?export=download&id=1bzw4PMHb0jTErSKnAKEIvPTY0K5fRWM4"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="border border-primary-600 text-primary-600 px-8 py-3 rounded-lg font-medium hover:bg-primary-50 transition-colors flex items-center justify-center gap-2"
               >
                 <Download size={18} />
                 Download CV
               </motion.a>
 
-              <motion.a
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                href="https://ankitnarang-ai.github.io/AnkitNarang-MusicTherapy/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors flex items-center justify-center gap-2"
-              >
-                <ExternalLink size={18} />
-                View Portfolio
-              </motion.a>
             </motion.div>
           </motion.div>
 
@@ -124,12 +115,17 @@ const Hero: React.FC = () => {
               className="relative"
             >
               <div className="w-80 h-80 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full shadow-2xl flex items-center justify-center">
-                <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center text-6xl font-bold text-primary-600">
-                  AN
+                <div className="w-72 h-72 bg-white rounded-full overflow-hidden flex items-center justify-center">
+                  <img
+                    src="https://res.cloudinary.com/dm2wxjddh/image/upload/v1753348884/ankit_pic_kbklai.jpg"
+                    alt="Ankit Narang"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <div className="absolute -z-10 w-80 h-80 bg-primary-200 rounded-full blur-3xl opacity-30"></div>
             </motion.div>
+
           </motion.div>
         </div>
       </div>

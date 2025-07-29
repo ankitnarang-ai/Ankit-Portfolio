@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Github, Linkedin, Twitter, ExternalLink } from 'lucide-react';
+import { Heart, Github, Linkedin, Twitter, ExternalLink, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
     {
       name: 'YouTube',
       url: 'https://www.youtube.com/@ShortNotes4u',
-      icon: <ExternalLink className="w-5 h-5" />
+      icon: <Youtube className="w-5 h-5" />
     }
   ];
 

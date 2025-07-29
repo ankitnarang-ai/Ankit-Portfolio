@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
       icon: <Brain className="w-6 h-6" />,
       links: {
         github: 'https://github.com/ankitnarang-ai/hirecatalyze-website',
-        live: null
+        live: 'https://www.hirecatalyze.com'
       },
       featured: true
     },
@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
       icon: <Brain className="w-6 h-6" />,
       links: {
-        github: null,
+        github: 'https://github.com/ankitnarang-ai/gemini',
         live: 'https://chat.hirecatalyze.com'
       }
     },
@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
       tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js'],
       icon: <ShoppingBag className="w-6 h-6" />,
       links: {
-        github: null,
+        github: 'https://github.com/ankitnarang-ai/rekha-boutique',
         live: 'https://www.rekhaboutique.shop/'
       }
     },
@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
       tech: ['HTML5', 'CSS3', 'JavaScript'],
       icon: <FileText className="w-6 h-6" />,
       links: {
-        github: null,
+        github: 'https://github.com/ankitnarang-ai/Resume-generator',
         live: 'https://ankitnarang-ai.github.io/Resume-generator/'
       }
     },
